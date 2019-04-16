@@ -2,7 +2,7 @@
   "name": "mpint",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jayolee.github.io/MLInt",
+  "homepage": "https://jayolee.github.io/mlint",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
