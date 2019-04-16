@@ -147,6 +147,19 @@ $cmured : rgba(196, 30, 58, 1);
             margin:30px 0;
         }
     }
+
+    .chartwrap{
+        margin:30px 0;
+
+        .title{
+            font: {
+                size: 18px;
+                weight: bold;
+            }
+            color:rgba(0,0,0,0.9);
+            margin-bottom: 30px;
+        }
+    }
 }
 .samples{
     display:flex;
