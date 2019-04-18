@@ -84,12 +84,12 @@ Which feature visualization can help creating the dog face?
           <div style={{margin: "30px auto", display: "block", maxWidth: "200px"}} >
                   <img src={dog_head} />
                 </div>
-        <div className="subtitle center">Nice work! The dog has a face now.</div>
+        <div className="subtitle center">Nice work! Tim created a dog head.</div>
       </div>;
 
       case 2: return <div className="question dog" key="dogQuestion" style={{ opacity:this.state.quesop, textAlign: "left" }}>
       <div className="title" >Task {this.state.tasknum}/10</div>
-      <div className="subtitle" style={{width:"100%",textAlign:"center"}}>Tim tries to create a dog robot for her daughter. </div>
+      <div className="subtitle" style={{width:"100%",textAlign:"center"}}>Alex tries to create a dog robot for the daughter. </div>
           <div className="dog_wrapper">
             <img id="parts" key="head" style={{ opacity: this.state.headop }} src={dog_nohead} />
       </div>
@@ -99,8 +99,8 @@ Which feature visualization can help creating the dog face?
           <img src={dogphoto} />
         </div>
         <div className = "sample_question">
-        He’s trying to create a head part based on the photo on the left.<br />
-Which feature visualization can help creating the dog face?
+        Tim’s trying to create a head part based on the photo on the left.<br />
+Which feature visualization can help creating the dog head?
           <div className="samples">
             <img src={chr1} key="0" href="0" className={this.state.answerClass[0]} onClick={this.selectAnswer.bind(this)} />
             <img src={chr2} key="1" href="1" className={this.state.answerClass[1]} onClick={this.selectAnswer.bind(this)} />
