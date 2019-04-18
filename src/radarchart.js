@@ -38,10 +38,7 @@ class Radar extends Component {
     const config = this.props.config;
     return (
       <div>
-          <div className="question" style={{ textAlign: "left" }}>
           <RadarChart id="myChart" data={config.data} options={config.options} width="300" height="300" />
-         
-          </div>
         </div>
     );
   }

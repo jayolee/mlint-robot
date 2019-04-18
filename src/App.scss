@@ -117,7 +117,7 @@ $cmured : rgba(196, 30, 58, 1);
     .question{
         width: calc(90% - 270px);
         max-width: 512px;
-
+        transition: .3s;
         .title{
             font: {
                 size: 18px;
@@ -140,17 +140,37 @@ $cmured : rgba(196, 30, 58, 1);
                     weight: bold;
                 }
             }
+           
         }
         .chart{
             width: 100%;
             text-align: center;
             margin:30px 0;
         }
+        &.dog{
+            max-width: 1000px;
+            width: 100%;
+            #parts{
+                max-width: 600px;
+                margin:30px auto 90px;
+                display: block;
+            }
+        }
+       
     }
+    .chartPage{
+        width: 100%;
+        max-width: 1200px;
+        .btn{
+            display:block;
 
+        }
+    }
     .chartwrap{
         margin:30px 0;
-
+        text-align: center;
+        width: 50%;
+        display: inline-block;
         .title{
             font: {
                 size: 18px;
@@ -160,6 +180,24 @@ $cmured : rgba(196, 30, 58, 1);
             margin-bottom: 30px;
         }
     }
+}
+.dog_sample{
+     display:flex;
+     justify-content: space-between;
+     width: 800px;
+     margin: 30px auto;
+    #dogphoto{
+        width: 95%;
+        max-width:200px;
+        margin:0 60px 0 0;
+        img{
+            width: 100%;
+            border-radius: 6px;
+        }
+    }          
+}
+.sample_question{
+text-align: center;
 }
 .samples{
     display:flex;
